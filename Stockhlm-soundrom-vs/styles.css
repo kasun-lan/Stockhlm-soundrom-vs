@@ -393,7 +393,7 @@ body {
     }
 
     #btn {
-        width: 319px;
+        width: 250px;
         margin: auto;
         background-color: #222;
         border-radius: 4px;
@@ -421,11 +421,11 @@ body {
         touch-action: manipulation;
         height:40px;
         clear:both;
-        margin-left:-2px;
+        margin-left:-12px;
     }
 
     #btn2 {
-        width: 250px;
+        width: 319px;
         margin: auto;
         background-color: #222;
         border-radius: 4px;
@@ -453,7 +453,7 @@ body {
         touch-action: manipulation;
         height: 100%;
         clear: both;
-        margin-left: -52px;
+        margin-left: -2px;
     }
 
     #input_div1 {
