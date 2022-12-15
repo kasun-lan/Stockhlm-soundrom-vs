@@ -1,0 +1,21 @@
+test10,test11
+test20,test21
+test30,test31
+test20,test21
+slash,cash
+slit,dodge
+nadeeshancooray@gmail.com,Select country (Optional)
+vishalDesks@gmail.com,Select country (Optional)
+oprahjjthoump@gmail.com,Select country (Optional)
+nadeeshancooray5@gmail.com,NA
+nadeeshancooray56@gmail.com,NA
+nadeeshancooray11@gmail.com,NA
+nadeeshancooray12@gmail.com,AZ
+nadeeshancooray14@gmail.com,AX
+nadeeshancooray455@gmail.com,AG
+nadeeshancooray2342ewer@gmail.com,BS
+nadeeshancooray2342ewer@gmail.com,BS
+nadeeshancojoray455@gmail.com,NA
+nadeeshancosdfdoray5@gmail.com,NA
+nadeeshancodfddoray2342ewer@gmail.com,NA
+nadeeshancofdforay2342ewer@gmail.comd,NA

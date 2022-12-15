@@ -1,0 +1,628 @@
+::-webkit-input-placeholder {
+    /* Edge */
+    font-size: 12px;
+    font-style: italic;
+    color: black;
+    text-align: left;
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer */
+    font-size: 12px;
+    font-style: italic;
+    color: black;
+    text-align: left;
+}
+
+::placeholder {
+    font-size: 12px;
+    font-style: italic;
+    color: black;
+    text-align: left;
+}
+
+
+body {
+    font-family: 'Lato', Arial, sans-serif;
+    margin: 10px;
+}
+
+
+#container1 {
+    width: 100%;
+    height: 100%;
+    /* display: flex; */
+    align-items: center;
+}
+
+
+
+
+#centerimage {
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    display: block;
+    /* position: relative; */
+}
+
+#launching_soon {
+    margin: auto;
+    width: 300px;
+    height: 40px;
+    display: block;
+    transform: skewY(-2deg);
+    text-align: center;
+    /* position: relative; */
+    font-family: 'Permanent Marker', Arial, sans-serif;
+    font-size: 30px;
+}
+
+#description {
+    margin: auto;
+    width: 240px;
+    height: 80px;
+    /* text-align: justify; */
+    font-size: 15.5px;
+}
+
+#input_div1 {
+    margin: auto;
+    width: 310px;
+    margin-bottom: 20px;
+    height: 40px;
+}
+
+#input_div2 {
+    margin: auto;
+    width: 310px;
+    margin-bottom: 20px;
+    height: 42px;
+}
+
+
+/* #input_div > :first-child:not(:empty) + #input_country {
+    display: block;
+} */
+
+#txt {
+    width: 200px;
+    float: left;
+    display: inline;
+    margin: auto;
+    height: 100%;
+    font-size: 12px;
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+    border: solid 1px black;
+    text-align: left;
+}
+
+#txt2 {
+    width: 200px;
+    float: left;
+    display: inline;
+    margin: auto;
+    height: 100%;
+    font-size: 12px;
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+    border: solid 1px black;
+    text-align: left;
+}
+
+#btn {
+    width: 100px;
+    margin: auto;
+    background-color: #222;
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    max-width: none;
+    min-height: 44px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    height: 100%;
+    
+}
+
+#btn2 {
+    width: 100px;
+    margin: auto;
+    background-color: #222;
+    border-radius: 4px;
+    border-style: solid;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    max-width: none;
+    min-height: 44px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    height: 100%;
+}
+
+#social_media_desc {
+    margin: auto;
+    max-width: 800px;
+    margin-bottom: -10px;
+}
+
+    #social_media_desc p {
+        text-align: center;
+    font-size: 16px;
+    
+    }
+
+#div_social_media_icons {
+    margin: auto;
+    max-width: 450px;
+    height: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.div_single_icon {
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+    .div_single_icon img {
+        width: 100%;
+        height: 100%;
+    }
+
+#cross_button {
+    position: absolute;
+    background-color: #222;
+    color:white;
+    top: 0;
+    right: 0;
+}
+
+    #cross_button:active {
+        background-color: white;
+    }
+
+#input_country {
+    display: none;
+    width: 100%;
+    height: 150px;
+    margin: auto;
+    border-radius: 4px;
+    border-style: none;
+    background-color: #222;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+
+
+    #input_country select { /*country*/
+        font-size: 12px;
+        font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+        /* color: white; */
+        text-align: left;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: calc((#input_country - 100%) / 2);
+        width: 311px;
+        height: 30px;
+        margin-left: 5px;
+    }
+
+#under_country {
+    font-size: 12px;
+    margin: 3px;
+    color: white;
+    text-align: left;
+}
+
+
+
+#lbl_error {
+    margin: auto;
+    font-size: 12px;
+    color: red;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 50%;
+    display: none;
+    text-align:center;
+    font-weight:900;
+}
+
+
+/* styles for image_one when screen is over 1000px width */
+@media screen and (min-width: 600px) {
+    #logo {
+        width: 200px;
+        height: 35px;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: -10px;
+
+    }
+
+    #image_dl{
+
+        display:none;
+
+    }
+    #image_ol {
+        display: inline;
+    }
+    
+
+    #get_our_merch {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 120px;
+        height: 50px;
+        font-size: 10px;
+        /* background-color: lightblue; */
+        /* position: relative; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 900;
+        font-family: "Bebas Neue", "Helvetica Neue", Arial, sans-serif;
+        margin: 10px;
+        margin-left: 20px;
+    }
+}
+
+/* styles for image_one when screen is between 1000px and 500px width */
+@media screen and (min-width: 370px) and (max-width: 600px) {
+
+
+    #div_social_media_icons {
+        margin: auto;
+        max-width: 450px;
+        height: 50px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        margin-left:10px
+    }
+
+    #social_media_desc p {
+        text-align: justify;
+        font-size: 16px;
+        margin-left: 21px;
+        margin-right: 15px;
+        margin-top: 28px;
+    }
+
+    #logo {
+        margin: auto;
+        font-size: 3.7vw;
+        text-align: center;
+        margin-top: 20px;
+        width: 120px;
+        height: 30px;
+    }
+
+    #image_dl {
+        display: inline;
+    }
+
+    #image_ol {
+        display: none;
+    }
+
+  
+    #get_our_merch {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100px;
+        height: 50px;
+        font-size: 10px;
+        /* background-color: lightblue; */
+        /* position: relative; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #txt {
+        width: 240px;
+        display: inline;
+        margin: auto;
+        height: 40px;
+        font-size: 12px;
+        font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+        border: solid 1px black;
+        text-align: left;
+        margin-left: 25px;
+        margin-bottom: 5px;
+    }
+
+    #txt2 {
+        width: 100%;
+        float: left;
+        display: inline;
+        margin: auto;
+        height: 40px;
+        font-size: 12px;
+        font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+        border: solid 1px black;
+        text-align: left;
+        margin-bottom: 4px;
+    }
+
+    #btn {
+        width: 319px;
+        margin: auto;
+        background-color: #222;
+        border-radius: 4px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.5;
+        margin: 0;
+        max-width: none;
+        min-height: 44px;
+        min-width: 10px;
+        outline: none;
+        overflow: hidden;
+        padding: 9px 20px 8px;
+        position: relative;
+        text-align: center;
+        text-transform: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        height:40px;
+        clear:both;
+        margin-left:-2px;
+    }
+
+    #btn2 {
+        width: 250px;
+        margin: auto;
+        background-color: #222;
+        border-radius: 4px;
+        border-style: solid;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.5;
+        margin: 0;
+        max-width: none;
+        min-height: 44px;
+        min-width: 10px;
+        outline: none;
+        overflow: hidden;
+        padding: 9px 20px 8px;
+        position: relative;
+        text-align: center;
+        text-transform: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        height: 100%;
+        clear: both;
+        margin-left: -52px;
+    }
+
+    #input_div1 {
+        text-align: center;
+        margin: auto;
+        width: 310px;
+        margin-bottom: 20px;
+        height: 80px;
+    }
+
+    #input_div2 {
+        text-align: center;
+        margin: auto;
+        width: 310px;
+        margin-bottom: 20px;
+        height: 42px;
+    }
+
+    #input_country {
+        display: none;
+        width: 100%;
+        height: 190px;
+        margin: auto;
+        border-radius: 4px;
+        border-style: none;
+        background-color: #222;
+        margin-bottom: 5px;
+        position: relative;
+    }
+}
+
+/* styles for image_one when screen is smaller than 500px width */
+@media screen and (max-width: 370px) {
+
+    #div_social_media_icons {
+        margin: auto;
+        max-width: 450px;
+        height: 50px;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+        flex-wrap: wrap;
+        /* flex-direction: column; */
+        margin-left: 10px
+    }
+
+
+    #social_media_desc p {
+        text-align: justify;
+        font-size: 16px;
+        margin-left: 21px;
+        margin-right: 15px;
+        margin-top: 28px;
+    }
+
+
+    #logo {
+        margin: auto;
+        font-size: 3.7vw;
+        text-align: center;
+        margin-top: 20px;
+        width: 100px;
+        height: 30px;
+    }
+
+    #image_dl {
+        display: inline;
+    }
+
+    #image_ol {
+        display: none;
+    }
+
+    #get_our_merch {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 80px;
+        height: 50px;
+        font-size: 8px;
+        /* background-color: lightblue; */
+        /* position: relative; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #txt {
+        width: 240px;
+        display: inline;
+        margin: auto;
+        height: 40px;
+        font-size: 12px;
+        font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+        border: solid 1px black;
+        text-align: left;
+        margin-left: 25px;
+        margin-bottom: 5px;
+    }
+
+    #btn {
+        width: 250px;
+        margin: auto;
+        background-color: #222;
+        border-radius: 4px;
+        border-style: none;
+        box-sizing: border-box;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.5;
+        margin: 0;
+        max-width: none;
+        min-height: 44px;
+        min-width: 10px;
+        outline: none;
+        overflow: hidden;
+        padding: 9px 20px 8px;
+        position: relative;
+        text-align: center;
+        text-transform: none;
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        height: 40px;
+        clear: both;
+        margin-left: -12px;
+
+    }
+
+    #input_div1 {
+        text-align: center;
+        margin: auto;
+        width: 310px;
+        margin-bottom: 20px;
+        height: 80px;
+    }
+
+    .input_di2 {
+        text-align: center;
+        margin: auto;
+        width: 310px;
+        margin-bottom: 20px;
+        height: 42px;
+    }
+}
+
+
+.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
