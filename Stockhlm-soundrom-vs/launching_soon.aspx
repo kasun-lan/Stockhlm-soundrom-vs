@@ -46,7 +46,7 @@
             <div id="input_country">
                 <button id="cross_button">&#x2715;</button>
 
-                <div style="margin: auto; width: 320px; text-align:center;display:block">
+                <div id="div_new" style="margin: auto; width: 320px; text-align:center;display:block">
                     <select id="country" name="country">
                         <option>Select country (Optional)</option>
                         <option value="AF">Afghanistan</option>
