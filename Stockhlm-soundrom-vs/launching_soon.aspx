@@ -9,9 +9,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Permanent Marker' rel='stylesheet'>
-    <link href="https://fonts.cdnfonts.com/css/bebas-neue" rel="stylesheet">
+ <%--   <link href="https://fonts.cdnfonts.com/css/bebas-neue" rel="stylesheet">--%>
     <link rel="stylesheet" href="styles.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
@@ -31,14 +32,14 @@
                 <img width="100%" height="100%" id="image_dl" src="logo-double-line.png" alt="">
             </div>
             <div id="launching_soon">
-                Launching Soon...
+                Launching soon...
             </div>
             <div id="centerimage">
                 <img width="100%" height="100%" src="Stockholm Soundrome BW-01.png" alt="">
             </div>
             <div id="description">
                 <p>
-                    First Productions are in the making
+                    First Productions are in the making.
                     Sign up below to be among the first
                     once to hear our sound.
                 </p>
@@ -46,7 +47,7 @@
             <div id="input_country">
                 <button id="cross_button">&#x2715;</button>
 
-                <div id="div_new" style="margin: auto; width: 320px; text-align:center;display:block">
+                <div id="div_new" style="margin: auto; width: 472px; text-align:center;display:block">
                     <select id="country" name="country">
                         <option>Select country (Optional)</option>
                         <option value="AF">Afghanistan</option>
@@ -310,14 +311,14 @@
                     </div>
                     <div id="input_div2">
                         <input id="txt2" type="email" placeholder="Enter your email address" required>
-                        <input type="button" id="btn2" value="Sumbit">
+                        <input type="button" id="btn2" value="SUBMIT">
                     </div>
                 </div>
 
             </div>
             <div id="input_div1">
                 <input id="txt" type="email" placeholder="Enter your email address" required>
-                <input type="button" id="btn" value="Sumbit">
+                <input type="button" id="btn" value="SUBMIT">
             </div>
 
             <label id="lbl_error">Incorrect Email!</label>

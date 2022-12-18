@@ -113,6 +113,7 @@ function submitButton1Clicked() {
     else { // when we come to here we know the input is not valid in #txt
 
         document.getElementById("lbl_error").style.display = "block";
+        document.getElementById("lbl_error").innerHTML = "Incorrect Email!";
 
         shakeInput(input);
     }
@@ -276,7 +277,7 @@ function function3() {
         }
         else {
 
-            countryToSave = document.getElementById("country").options[selectedIndex].value;
+            countryToSave = document.getElementById("country").options[selectedIndex].text;
         }
 
 

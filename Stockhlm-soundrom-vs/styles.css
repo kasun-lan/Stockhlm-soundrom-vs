@@ -1,22 +1,19 @@
 ::-webkit-input-placeholder {
     /* Edge */
-    font-size: 12px;
-    font-style: italic;
+    font-size: 15px;
     color: black;
     text-align: left;
 }
 
 :-ms-input-placeholder {
     /* Internet Explorer */
-    font-size: 12px;
-    font-style: italic;
+    font-size: 15px;
     color: black;
     text-align: left;
 }
 
 ::placeholder {
-    font-size: 12px;
-    font-style: italic;
+    font-size: 15px;
     color: black;
     text-align: left;
 }
@@ -33,6 +30,8 @@ body {
     height: 100%;
     /* display: flex; */
     align-items: center;
+    font-stretch: condensed;
+    font-family : 'Lato';
 }
 
 
@@ -40,42 +39,49 @@ body {
 
 #centerimage {
     margin: auto;
-    width: 250px;
-    height: 250px;
+    width: 338px;
+    height: 338px;
     display: block;
+    margin-top: -35px;
     /* position: relative; */
 }
 
 #launching_soon {
     margin: auto;
-    width: 300px;
-    height: 40px;
+    width: 600px;
+    height: 80px;
     display: block;
     transform: skewY(-2deg);
     text-align: center;
     /* position: relative; */
     font-family: 'Permanent Marker', Arial, sans-serif;
-    font-size: 30px;
+    font-size: 50px;
+    margin-top: -15px;
+    margin-bottom: -24px;
 }
 
 #description {
     margin: auto;
-    width: 240px;
+    width: 263px;
     height: 80px;
     /* text-align: justify; */
-    font-size: 15.5px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-top: -31px;
+    word-spacing: 2px;
 }
 
 #input_div1 {
     margin: auto;
-    width: 310px;
+    width: 477px;
     margin-bottom: 20px;
     height: 40px;
 }
 
 #input_div2 {
     margin: auto;
-    width: 310px;
+    width: 474px;
     margin-bottom: 20px;
     height: 42px;
 }
@@ -86,31 +92,33 @@ body {
 } */
 
 #txt {
-    width: 200px;
+    width: 342px;
     float: left;
     display: inline;
     margin: auto;
     height: 100%;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
     border: solid 1px black;
     text-align: left;
+    margin-right: 3px;
 }
 
 #txt2 {
-    width: 200px;
+    width: 342px;
     float: left;
     display: inline;
     margin: auto;
     height: 100%;
-    font-size: 12px;
+    font-size: 14px;
     font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
     border: solid 1px black;
     text-align: left;
+    margin-right:2px;
 }
 
 #btn {
-    width: 100px;
+    width: 124px;
     margin: auto;
     background-color: #222;
     border-radius: 4px;
@@ -137,16 +145,16 @@ body {
     -webkit-user-select: none;
     touch-action: manipulation;
     height: 100%;
-    
 }
 
 #btn2 {
-    width: 100px;
+    width: 124px;
     margin: auto;
     background-color: #222;
     border-radius: 4px;
     border-style: solid;
     box-sizing: border-box;
+    border-color:white;
     color: #fff;
     cursor: pointer;
     display: inline-block;
@@ -174,6 +182,8 @@ body {
     margin: auto;
     max-width: 800px;
     margin-bottom: -10px;
+    margin-top: 49px;
+    word-spacing: 2px;
 }
 
     #social_media_desc p {
@@ -184,19 +194,20 @@ body {
 
 #div_social_media_icons {
     margin: auto;
-    max-width: 450px;
-    height: 50px;
+    width: 621px;
+    height: 81px;
     display: flex;
     /* justify-content: center; */
     align-items: center;
     flex-wrap: wrap;
     /* flex-direction: column; */
+    margin-top: -21px;
 }
 
 .div_single_icon {
-    width: 30px;
-    height: 30px;
-    padding: 10px;
+    width: 41px;
+    height: 41px;
+    padding: 14px;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -221,7 +232,7 @@ body {
 #input_country {
     display: none;
     width: 100%;
-    height: 150px;
+    height: 219px;
     margin: auto;
     border-radius: 4px;
     border-style: none;
@@ -233,9 +244,9 @@ body {
 
 
     #input_country select { /*country*/
-        font-size: 12px;
+        font-size: 15px;
         font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
-        /* color: white; */
+        color: white; 
         text-align: left;
         margin: auto;
         margin-top: 10px;
@@ -244,14 +255,18 @@ body {
         width: 311px;
         height: 30px;
         margin-left: 5px;
+        background-color: #222;
     }
 
 #under_country {
-    font-size: 12px;
+    font-size: 15px;
     margin: 3px;
     color: white;
     text-align: left;
     margin-left: 7px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -273,13 +288,12 @@ body {
 /* styles for image_one when screen is over 1000px width */
 @media screen and (min-width: 600px) {
     #logo {
-        width: 200px;
-        height: 35px;
+        width: 225px;
+        height: 43px;
         margin: auto;
         text-align: center;
         margin-top: 20px;
         margin-bottom: -10px;
-
     }
 
     #image_dl{
@@ -290,22 +304,22 @@ body {
     #image_ol {
         display: inline;
     }
-    
+
 
     #get_our_merch {
         position: absolute;
         top: 0;
         left: 0;
-        width: 120px;
+        width: 134px;
         height: 50px;
-        font-size: 10px;
+        font-size: 16.8px;
         /* background-color: lightblue; */
         /* position: relative; */
         display: flex;
         align-items: center;
         justify-content: center;
         font-weight: 900;
-        font-family: "Bebas Neue", "Helvetica Neue", Arial, sans-serif;
+        font-family: "Oswald", "Helvetica Neue", Arial, sans-serif;
         margin: 10px;
         margin-left: 20px;
     }
@@ -460,9 +474,9 @@ body {
     #input_div1 {
         text-align: center;
         margin: auto;
-        width: 310px;
         margin-bottom: 20px;
         height: 80px;
+        width: 474px;
     }
 
     #input_div2 {
