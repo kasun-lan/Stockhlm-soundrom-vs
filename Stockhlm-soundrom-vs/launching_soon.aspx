@@ -21,12 +21,7 @@
 
 <body>
     <div id="container1">
-        <a href="https://www.youtube.com">
-            <div id="get_our_merch">
-                GET OUR MERCH
-            </div>
-        </a>
-        <div class="container2">
+       <div class="container2">
             <div id="logo">
                 <img width="100%" height="100%" id="image_ol" src="logo-one-line.png" alt="">
                 <img width="100%" height="100%" id="image_dl" src="logo-double-line.png" alt="">

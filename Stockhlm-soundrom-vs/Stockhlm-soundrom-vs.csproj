@@ -118,6 +118,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="images\merch\" />
     <Folder Include="images\NewFolder1\" />
   </ItemGroup>
   <PropertyGroup>
