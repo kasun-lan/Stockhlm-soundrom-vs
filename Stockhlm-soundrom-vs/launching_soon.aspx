@@ -36,7 +36,7 @@
                 <p>
                     First Productions are in the making.
                     Sign up below to be among the first
-                    once to hear our sound.
+                    ones to hear our sound.
                 </p>
             </div>
             <div id="input_country">
@@ -305,16 +305,35 @@
                     will be the first to know.
                     </div>
                     <div id="input_div2">
-                        <input id="txt2" type="email" placeholder="Enter your email address" required>
+                        <input id="txt2" type="email" placeholder="  Enter your email address" required>
                         <input type="button" id="btn2" value="SUBMIT">
                     </div>
                 </div>
 
             </div>
-            <div id="input_div1">
+            <div id="input_div1">   
                 <input id="txt" type="email" placeholder="Enter your email address" required>
                 <input type="button" id="btn" value="SUBMIT">
             </div>
+           <div id="get_our_merch">
+               <div id="div_tshirts">
+                   <div id="m1">
+                       <a href="#">
+                       <img style="width:200px;height:200px;" src="images/merch/all-over-print-unisex-hoodie-white-front-6386720092083.jpg" />
+
+                       </a>
+                   </div>
+                   <div id="m2">
+                       <a href="#">
+
+                       <img style="width:200px;height:200px;" src="images/merch/unisex-organic-cotton-t-shirt-black-front-639f94cf88080.png" />
+                       </a>
+                   </div>
+
+               </div>
+
+               <input id="get_our_merch_button" value="GET OUR MERCH" type="button" />
+           </div>
 
             <label id="lbl_error">Incorrect Email!</label>
 
@@ -323,47 +342,47 @@
             </div>
             <div id="div_social_media_icons">
                 <div class="div_single_icon">
-                    <a href="https://www.youtube.com">
+                    <a href="https://www.youtube.com/channel/UCKPaXTnkqH3HsDPkBLWp0ww">
                         <img src="\social_media\YouTube ikon svart.png" alt="">
                     </a>
                 </div>
                 <div class="div_single_icon">
-                    <a href="https://www.youtube.com">
+                    <a href="https://www.tiktok.com/@stockholmsoundrome?_t=8YIBVXYhjgz&_r=1">
                         <img src="\social_media\TikTok ikon svart.png" alt="">
                     </a>
                 </div>
 
                 <div class="div_single_icon">
-                    <a href="https://www.youtube.com">
+                    <a href="https://www.instagram.com/stockholmsoundrome/">
                         <img src="\social_media\Instagram ikon svart.png" alt="">
                     </a>
                 </div>
                 <div class="div_single_icon">
-                    <a href="https://www.youtube.com">
+                    <a href="https://open.spotify.com/user/317xbywnfrm6rprveujzttet644i?si=2c30047e5401451a">
                         <img src="\social_media\Spotify ikon svart.png" alt="">
                     </a>
                 </div>
 
                 <div class="div_single_icon">
-                    <a href="https://www.youtube.com">
+                    <a href="https://soundcloud.com/stockholmsoundrome">
                         <img src="\social_media\SoundCloud ikon svart.png" alt="">
                     </a>
                 </div>
 
                 <div class="div_single_icon">
-                    <a href="https://www.youtube.com">
+                    <a href="https://www.facebook.com/stockholmsoundrome">
                         <img src="\social_media\Facebook ikon svart.png" alt="">
                     </a>
                 </div>
 
                 <div class="div_single_icon">
-                    <a href="https://www.youtube.com">
+                    <a href="https://twitter.com/SthlmSoundrome">
                         <img src="\social_media\Twitter ikon svart.png" alt="">
                     </a>
                 </div>
 
                 <div class="div_single_icon">
-                    <a href="https://www.youtube.com">
+                    <a href="https://www.snapchat.com/add/sthlmsoundrome?share_id=n9cJpQCGWGE&locale=en-GB">
                         <img src="\social_media\Snap ikon svart.png" alt="">
                     </a>
                 </div>
