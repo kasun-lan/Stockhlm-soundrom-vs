@@ -319,14 +319,14 @@
                <div id="div_tshirts">
                    <div id="m1">
                        <a href="#">
-                       <img style="width:200px;height:200px;" src="images/merch/all-over-print-unisex-hoodie-white-front-6386720092083.jpg" />
+                       <img class="merch_image" src="images/merch/all-over-print-unisex-hoodie-white-front-6386720092083.jpg" />
 
                        </a>
                    </div>
                    <div id="m2">
                        <a href="#">
 
-                       <img style="width:200px;height:200px;" src="images/merch/unisex-organic-cotton-t-shirt-black-front-639f94cf88080.png" />
+                       <img class="merch_image" src="images/merch/unisex-organic-cotton-t-shirt-black-front-639f94cf88080.png" />
                        </a>
                    </div>
 
