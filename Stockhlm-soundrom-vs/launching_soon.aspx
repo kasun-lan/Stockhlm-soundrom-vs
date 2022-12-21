@@ -305,14 +305,14 @@
                     will be the first to know.
                     </div>
                     <div id="input_div2">
-                        <input id="txt2" type="email" placeholder="  Enter your email address" required>
+                        <input id="txt2" type="email" placeholder="Enter your email address" required>
                         <input type="button" id="btn2" value="SUBMIT">
                     </div>
                 </div>
 
             </div>
             <div id="input_div1">   
-                <input id="txt" type="email" placeholder="  Enter your email address" required>
+                <input id="txt" type="email" placeholder="Enter your email address" required>
                 <input type="button" id="btn" value="SUBMIT">
             </div>
            <div id="get_our_merch">
