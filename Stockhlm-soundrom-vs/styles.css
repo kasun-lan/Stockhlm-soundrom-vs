@@ -113,7 +113,7 @@ body {
 }
 
 #txt2 {
-    width: 342px;
+    width: 333px;
     float: left;
     display: inline;
     margin: auto;
@@ -123,6 +123,7 @@ body {
     border: solid 1px black;
     text-align: left;
     margin-right: 2px;
+    padding-left: 10px;
 }
 
 #btn {
@@ -512,6 +513,7 @@ body {
         border: solid 1px black;
         text-align: left;
         margin-bottom: 4px;
+        padding-left: 10px;
     }
 
     #btn {
