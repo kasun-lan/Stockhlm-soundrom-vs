@@ -42,7 +42,7 @@
             <div id="input_country">
                 <button id="cross_button">&#x2715;</button>
 
-                <div id="div_new" style="margin: auto; width: 472px; text-align:center;display:block">
+                <div id="div_new" >
                     <select id="country" name="country">
                         <option>Select country (Optional)</option>
                         <option value="AF">Afghanistan</option>
@@ -312,7 +312,7 @@
 
             </div>
             <div id="input_div1">   
-                <input id="txt" type="email" placeholder="Enter your email address" required>
+                <input id="txt" type="email" placeholder="  Enter your email address" required>
                 <input type="button" id="btn" value="SUBMIT">
             </div>
            <div id="get_our_merch">

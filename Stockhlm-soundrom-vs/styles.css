@@ -25,6 +25,13 @@ body {
 }
 
 
+#div_new {
+    margin: auto;
+    width: 472px;
+    text-align: center;
+    display: block
+}
+
 #container1 {
     width: 100%;
     height: 100%;
@@ -494,7 +501,7 @@ body {
     }
 
     #txt2 {
-        width: 100%;
+        width: 296px;
         float: left;
         display: inline;
         margin: auto;
@@ -539,7 +546,7 @@ body {
     }
 
     #btn2 {
-        width: 319px;
+        width: 304px;
         margin: auto;
         background-color: #222;
         border-radius: 4px;
@@ -589,7 +596,7 @@ body {
     #input_country {
         display: none;
         width: 100%;
-        height: 190px;
+        height: 248px;
         margin: auto;
         border-radius: 4px;
         border-style: none;
@@ -629,6 +636,19 @@ body {
         height: 20px;
         margin-left: -41px;
     }
+
+    #under_country {
+        font-size: 15px;
+        margin: 3px;
+        color: white;
+        text-align: left;
+        margin-left: 7px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 325px;
+    }
+
 
 }
 
@@ -788,7 +808,7 @@ body {
     }
 
     #txt2 {
-        width: 100%;
+        width: 296px;
         float: left;
         display: inline;
         margin: auto;
@@ -833,7 +853,7 @@ body {
     }
 
     #btn2 {
-        width: 319px;
+        width: 304px;
         margin: auto;
         background-color: #222;
         border-radius: 4px;
@@ -861,7 +881,6 @@ body {
         touch-action: manipulation;
         height: 100%;
         clear: both;
-        margin-left: -2px;
     }
 
     #input_div1 {
@@ -883,13 +902,46 @@ body {
     #input_country {
         display: none;
         width: 100%;
-        height: 190px;
+        height: 241px;
         margin: auto;
         border-radius: 4px;
         border-style: none;
         background-color: #222;
         margin-bottom: 5px;
         position: relative;
+    }
+
+    #under_country {
+        font-size: 15px;
+        margin: 3px;
+        color: white;
+        text-align: left;
+        margin-left: 7px;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 30px;
+        width: 325px;
+    }
+
+    #div_new {
+        margin: auto;
+        width: 381px;
+        text-align: center;
+        display: block;
+    }
+
+    #input_country select {
+        font-size: 15px;
+        font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
+        color: white;
+        text-align: left;
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: calc((#input_country - 100%) / 2);
+        width: 311px;
+        height: 30px;
+        background-color: #222;
     }
 }
 
@@ -975,11 +1027,11 @@ body {
         border: solid 1px black;
         text-align: left;
         margin-bottom: 4px;
-        margin-left: 23px;
+        margin-left: 12px;
     }
 
     #btn2 {
-        width: 241px;
+        width: 250px;
         margin: auto;
         background-color: #222;
         border-radius: 4px;
@@ -1007,7 +1059,8 @@ body {
         touch-action: manipulation;
         height: 100%;
         clear: both;
-        margin-left: -18px;
+        margin-left: -8px;
+        /* margin-bottom: 13px; */
     }
 
 
@@ -1097,18 +1150,17 @@ body {
         height: 80px;
     }
 
-    .input_di2 {
-        text-align: center;
+    #input_div2 {
         margin: auto;
-        width: 310px;
-        margin-bottom: 20px;
-        height: 42px;
+        width: 280px;
+        margin-bottom: 3px;
+        height: 45px;
     }
 
     #input_country {
         display: none;
         width: 100%;
-        height: 190px;
+        height: 196px;
         margin: auto;
         border-radius: 4px;
         border-style: none;
@@ -1119,12 +1171,12 @@ body {
 
     #div_new {
         margin: auto;
-        width: 100%;
+        width: 280px;
         text-align: center;
         display: block;
     }
 
-    #input_country select { /*country*/
+    #input_country select {
         font-size: 12px;
         font-family: "Lato", "Helvetica Neue", Arial, sans-serif;
         /* color: white; */
@@ -1135,7 +1187,7 @@ body {
         margin-left: calc((#input_country - 100%) / 2);
         width: 241px;
         height: 30px;
-        margin-left: -12px;
+        /* margin-left: -12px; */
     }
 
     #under_country {
@@ -1143,16 +1195,9 @@ body {
         margin: 3px;
         color: white;
         text-align: left;
-        margin-left: 30px;
+        margin-left: 15px;
+        margin-top: -2px;
     }
-
-    /*#cross_button {
-        position: absolute;
-        background-color: #222;
-        color: white;
-        bottom: 0;
-        right: 0;
-    }*/
 
     #social_media_desc {
         margin: auto;
