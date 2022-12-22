@@ -293,7 +293,7 @@ body {
 }
 
 #get_our_merch_button {
-    width: 474px;
+    width: 494px;
     margin: auto;
     background-color: #222;
     border-radius: 4px;
@@ -334,7 +334,7 @@ body {
 /* styles for image_one when screen is over 1000px width */
 @media screen and (min-width: 650px) {
     #logo {
-        width: 225px;
+        width: 219px;
         height: 43px;
         margin: auto;
         text-align: center;
@@ -415,7 +415,7 @@ body {
     }
 
     #social_media_desc p {
-        text-align: justify;
+        text-align: left;
         font-size: 16px;
         margin-left: 21px;
         margin-right: 15px;
@@ -428,7 +428,7 @@ body {
         text-align: center;
         margin-top: 20px;
         width: 120px;
-        height: 30px;
+        height: 48px;
     }
 
     #image_dl {
@@ -609,7 +609,7 @@ body {
     }
 
     #get_our_merch_button {
-        width: 474px;
+        width: 326px;
         margin: auto;
         background-color: #222;
         border-radius: 4px;
@@ -637,7 +637,7 @@ body {
         -webkit-user-select: none;
         touch-action: manipulation;
         height: 20px;
-        margin-left: -41px;
+        margin-left: 24px;
     }
 
     #under_country {
@@ -706,7 +706,7 @@ body {
     }
 
     #social_media_desc p {
-        text-align: justify;
+        text-align: left;
         font-size: 16px;
         margin-left: 21px;
         margin-right: 15px;
@@ -719,7 +719,7 @@ body {
         text-align: center;
         margin-top: 20px;
         width: 120px;
-        height: 30px;
+        height: 48px;
     }
 
     #image_dl {
@@ -733,19 +733,18 @@ body {
 
     #get_our_merch {
         width: 387px;
-        height: 261px;
-        /*background-color: grey;*/
+        height: 459px;
+        /* background-color: grey; */
         margin: auto;
         position: relative;
         margin-top: 32px;
     }
 
     #div_tshirts {
-        display: flex;
         justify-content: center;
         width: 387px;
-        height: 216px;
-        /*background-color: aquamarine;*/
+        height: 450px;
+        text-align: center;
     }
 
     #m1 {
@@ -753,6 +752,7 @@ body {
         width: 237px;
         /*background-color:lightblue;*/
         text-align: center;
+        margin: auto;
     }
 
     #m2 {
@@ -765,7 +765,7 @@ body {
     }
 
     #get_our_merch_button {
-        width: 377px;
+        width: 310px;
         margin: auto;
         background-color: #222;
         border-radius: 4px;
@@ -793,7 +793,7 @@ body {
         -webkit-user-select: none;
         touch-action: manipulation;
         height: 20px;
-        margin-left: 7px;
+        margin-left: 35px;
     }
 
 
@@ -856,7 +856,7 @@ body {
     }
 
     #btn2 {
-        width: 304px;
+        width: 317px;
         margin: auto;
         background-color: #222;
         border-radius: 4px;
@@ -884,6 +884,7 @@ body {
         touch-action: manipulation;
         height: 100%;
         clear: both;
+        margin-left: 35px;
     }
 
     #input_div1 {
@@ -954,36 +955,40 @@ body {
 
     #get_our_merch {
         width: 92vw;
-        height: 64vw;
-        /*background-color: grey;*/
+        height: 116vw;
+        /* background-color: grey; */
         margin: auto;
-        position: relative;
-        margin-top: 32px;
+        /* position: relative; */
+        /* margin-top: 32px; */
     }
 
     #div_tshirts {
-        display: flex;
+        /* display: flex; */
         justify-content: center;
-        width: 92vw;
-        height: 60vw;
+        width: 51vw;
+        height: 51vw;
         /* background-color: aquamarine; */
         margin-bottom: -28px;
+        margin: auto;
     }
 
     #m1 {
         height: 86%;
         width: 86%;
-        /*background-color:lightblue;*/
+        /* background-color: lightblue; */
         text-align: center;
+        margin: auto;
     }
 
     #m2 {
         height: 86%;
         width: 86%;
-        /*background-color: azure;*/
+        /* background-color: azure; */
         display: inline;
         text-align: center;
         padding-top: 7px;
+        margin: auto;
+        margin-left: 7px;
     }
 
 
@@ -998,7 +1003,7 @@ body {
         font-family: 'Permanent Marker', Arial, sans-serif;
         font-size: 9vw;
         margin-top: -10px;
-        margin-bottom: -24px;
+        margin-bottom: -46px;
     }
 
     #centerimage {
@@ -1016,7 +1021,8 @@ body {
         text-align: center;
         margin-top: 20px;
         width: 32vw;
-        height: 10vw;
+        height: 13vw;
+        margin-bottom: 5px;
     }
 
 
@@ -1081,10 +1087,10 @@ body {
 
 
     #social_media_desc p {
-        text-align: justify;
+        text-align: left;
         font-size: 16px;
-        margin-left: 21px;
-        margin-right: 15px;
+        margin-left: 17px;
+        width: 100%;
         margin-top: 28px;
     }
 
@@ -1205,15 +1211,15 @@ body {
 
     #social_media_desc {
         margin: auto;
-        max-width: 77vw;
+        max-width: 276px;
         margin-bottom: -10px;
-        margin-top: 49px;
+        margin-top: -12vw;
         word-spacing: 2px;
     }
 
     #get_our_merch_button {
-        width: 90vw;
-        margin: auto;
+        width: 75vw;
+        /* margin: auto; */
         background-color: #222;
         border-radius: 4px;
         border-style: solid;
@@ -1240,7 +1246,8 @@ body {
         -webkit-user-select: none;
         touch-action: manipulation;
         height: 20px;
-        margin-left: 5px;
+        margin-left: 9vw;
+        margin-top: 40vw;
     }
 
     .merch_image {

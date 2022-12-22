@@ -34,7 +34,7 @@
             </div>
             <div id="description">
                 <p>
-                    First Productions are in the making.
+                    First productions are in the making.
                     Sign up below to be among the first
                     ones to hear our sound.
                 </p>
