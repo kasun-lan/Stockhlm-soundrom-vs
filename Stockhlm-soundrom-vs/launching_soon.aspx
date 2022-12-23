@@ -387,11 +387,11 @@
                     </a>
                 </div>
 
-                <div class="div_single_icon">
+               <%-- <div class="div_single_icon">
                     <a href="https://www.youtube.com">
                         <img src="\social_media\LinkedIn ikon svart.png" alt="">
                     </a>
-                </div>
+                </div>--%>
 
 
 

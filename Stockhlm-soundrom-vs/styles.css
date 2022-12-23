@@ -202,7 +202,7 @@ body {
 
 #div_social_media_icons {
     margin: auto;
-    width: 621px;
+    width: 552px;
     height: 81px;
     display: flex;
     /* justify-content: center; */
@@ -1213,7 +1213,7 @@ body {
         margin: auto;
         max-width: 276px;
         margin-bottom: -10px;
-        margin-top: -10vw;
+        margin-top: 12vw;
         word-spacing: 2px;
     }
 
