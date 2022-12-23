@@ -315,7 +315,7 @@
                 <input id="txt" type="email" placeholder="Enter your email address" required>
                 <input type="button" id="btn" value="SUBMIT">
             </div>
-           <div id="get_our_merch">
+           <%--<div id="get_our_merch">
                <div id="div_tshirts">
                    <div id="m1">
                        <a href="#">
@@ -333,7 +333,7 @@
                </div>
 
                <input id="get_our_merch_button" value="GET OUR MERCH" type="button" />
-           </div>
+           </div>--%>
 
             <label id="lbl_error">Incorrect Email!</label>
 
