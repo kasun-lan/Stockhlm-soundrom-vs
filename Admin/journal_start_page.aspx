@@ -77,14 +77,80 @@
         <p id="p_introduction">
             <b>The Journal </b>is the official news channel for stockholm soundorm. iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
         </p>
-        <img id="img_1" src="Images/img1.jpg" />
-        <div class="div_description"></div>
+
+        <div class="journal">
+            <img id="img_1" src="Images/img1.jpg" />
+            <div class="div_description"></div>
+        </div>
+
 
 
     </div>
 
+    <script src="Scripts/Classes.js"></script>
+    <script src="Scripts/ArtistsScript.js"></script>
 
     <script>
+
+
+
+        //class Journal {
+        //    constructor() {
+        //        this.Id = 0;
+        //        this.DesktopImageUrl = '';
+        //        this.MobileImageUrl = '';
+        //        this.Headline = '';
+        //        this.MetaTitle = '';
+        //        this.MetaDescription = '';
+        //        this.BodyText = '';
+        //        this.PublishDate = new Date();
+        //        this.StartPageMaterial = false;
+        //        this.RelatedTracks = [];
+        //        this.RelatedStyle = [];
+        //        this.RelatedVideos = [];
+        //    }
+        //}
+
+
+
+
+        function AddJournalToContainer(containder_id, jnl) {
+
+            var j = new Journal();
+
+            //create a div with class="journal" 
+            var Journal = document.createElement('div');
+            Journal.className = 'journal';
+            Journal.id = "J"+j.id;
+
+            var Image_desktop = document.createElement('img');
+            Image_desktop.className = 'img_desktop';
+            Image_desktop.src = j.DesktopImageUrl;
+
+            var Image_Mobile = document.createElement('img');
+            Image_Mobile.className = 'img_mobile';
+            Image_Mobile.src = j.MobileImageUrl;
+
+            Journal.appendChild(Image_desktop);
+            Journal.appendChild(Image_Mobile);
+            AddDescriptionSection(Journal, j.BodyText);
+
+            document.getElementById(containder_id).appendChild(Journal);
+
+
+
+
+            //add an image inside it called
+            //call AddDescriptionSection([above_journal_div],journal.DescriptionText);
+            //add journal to container
+
+
+        }
+
+
+
+
+
         function AddDescriptionSection(ParentElementId, DescriptionText) {
             var ParentElement = document.getElementById(ParentElementId);
             var DescriptionSection = document.createElement('div');
