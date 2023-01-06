@@ -2,6 +2,22 @@
     background-color: black;
 }
 
+#add_artist{
+
+    position:relative;
+
+}
+
+
+#add_artist .close-button {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    cursor: pointer;
+    background-color:black;
+    border:solid;
+    color:white;
+}
 
 #lbl_artist {
     color: white;
@@ -19,6 +35,10 @@
     padding-right: 20px;
 }
 
+#add_artist {
+    padding: 50px;
+}
+
 .profile_container {
     width: 800px;
 }
@@ -26,18 +46,40 @@
 .profile_box {
     width: 150px;
     height: 280px;
+    display: inline-block;
+    text-align: center;
+    margin: 14px;
 }
 
     .profile_box img {
         height: 200px;
         width: 150px;
+        cursor: pointer;
+        transition: all 0.5s ease;
+    }
+
+        .profile_box img:hover {
+            transform: scale(1.1);
+        }
+
+    .profile_box .artist_name {
+        width: 150px;
+        text-align: center;
+        color: white;
+        margin-bottom: -13px;
+        display: block;
+    }
+
+    .profile_box .state {
+        border: solid;
+        color: white;
     }
 
 .infobox {
     margin-top: 15px;
-    margin-left: 50px;
-    width: 800px;
-    height: 60px;
+    /*margin-left: 50px;*/
+    /* height: 60px;*/
+    min-height: 60px;
     background-color: black;
     color: white;
     border: solid white;
@@ -48,7 +90,8 @@
         width: 100%;
         height: 10px;
         font-size: x-small;
-        display:block;
+        font-size: x-small;
+        display: block;
     }
 
     .infobox input {
@@ -59,22 +102,101 @@
         border: none;
     }
 
+    .infobox .input_list {
+        border: solid;
+        border-color: #423a3a;
+        margin-bottom: 2px;
+    }
+
     .infobox textarea {
         font-size: large;
         background-color: black;
         color: white;
         border: none;
-        width :700px;
-        height : 140px;
+        width: 700px;
+        height: 140px;
     }
 
 
 .button_container {
-    margin-left: 50px;
-    margin-top : 20px;  
+    /*margin-left: 50px;*/
+    margin-top: 20px;
+}
+
+#pic_vertical {
+    width: 130px;
+    height: 200px;
+    position: relative;
+    border: solid;
+    border-color: white;
+    color: white;
+    /*margin-left: 50px;*/
+    vertical-align: central;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+    #pic_vertical:hover {
+        background-color: #5d6952;
+    }
+
+#pic_horizontal {
+    width: 200px;
+    height: 130px;
+    position: relative;
+    border: solid;
+    border-color: white;
+    color: white;
+    display: inline-block;
+    background-size: 100% 100%;
+}
+
+    #pic_horizontal:hover {
+        background-color: #5d6952;
+    }
+
+
+
+
+.plus {
+    font-size: 73px;
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-weight: 900;
 }
 
 
-    
+.add_another {
+    display: block;
+    text-align: right;
+    color: white;
+}
 
-    
+    .add_another:hover {
+        font-weight: 900;
+    }
+
+.select_related {
+    background-color: black;
+    color: white;
+    margin: 3px;
+    position: relative;
+}
+
+/*.select_related .close-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: none;
+    }
+
+    .select_related:hover .close-button {
+        display: block;
+    }
+
+.close-button {*/
+/* style the close button, such as color, size, etc. */
+/*color:red;
+}*/
+

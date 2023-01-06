@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stockhlm-soundrom-vs", "Stockhlm-soundrom-vs\Stockhlm-soundrom-vs.csproj", "{0EEF2079-CAFE-44AD-9BA1-E9D4B9EB06E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Admin", "Admin\Admin.csproj", "{C633B87A-3F09-46C1-9987-60B894664962}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Main", "Admin\Main.csproj", "{C633B87A-3F09-46C1-9987-60B894664962}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

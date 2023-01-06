@@ -11,7 +11,7 @@ namespace Admin
 {
 
 
-    public partial class ViewArtists
+    public partial class journal_start_page
     {
     }
 }

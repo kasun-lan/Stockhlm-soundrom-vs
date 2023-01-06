@@ -7,11 +7,11 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Admin
+namespace journal_front
 {
 
 
-    public partial class ViewArtists
+    public partial class journal_start_page
     {
     }
 }
