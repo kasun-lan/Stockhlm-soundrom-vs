@@ -69,6 +69,10 @@
             text-decoration: underline;
         }
     </style>
+
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+
+
 </head>
 <body>
 
@@ -88,7 +92,8 @@
     </div>
 
     <script src="Scripts/Classes.js"></script>
-    <script src="Scripts/ArtistsScript.js"></script>
+    <script src="Scripts/journal_star_page_script.js"></script>
+
 
     <script>
 
