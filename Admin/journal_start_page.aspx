@@ -92,7 +92,7 @@
     </div>
 
     <script src="Scripts/Classes.js"></script>
-    <script src="Scripts/journal_star_page_script.js"></script>
+    <script src="Scripts/journal_start_page_script.js"></script>
 
 
     <script>
